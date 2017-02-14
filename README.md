@@ -9,7 +9,7 @@
 | Index | This is where commits will be prepared |
 | Repository | Different states of files will be tracked inside the Repository |
 
-.. insert image over here
+![Cheat: Terminal Cheatsheet](https://github.com/SebastianBoldt/Git-Cheatsheet/blob/master/Images/index.png?raw=true)
 
 ## Commands 
 
