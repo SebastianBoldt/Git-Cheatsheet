@@ -9,7 +9,7 @@
 | Index | This is where commits will be prepared |
 | Repository | Different states of files will be tracked inside the Repository |
 
-![Cheat: Terminal Cheatsheet](https://github.com/SebastianBoldt/Git-Cheatsheet/blob/master/Images/index.png?raw=true)
+![Cheat: Terminal Cheatsheet](https://github.com/SebastianBoldt/Git-Cheatsheet/blob/e12a338944a5ca89aae5298119f7c96a81f52e8f/Images/index.png?raw=true)
 
 ## Commands 
 
