@@ -47,4 +47,7 @@
 
 ... to be continued.
 
+## Update Tags
 
+git tag -l | xargs git tag -d
+git fetch --tags
