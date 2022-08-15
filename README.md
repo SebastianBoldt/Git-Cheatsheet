@@ -49,7 +49,7 @@ A Cheatsheet for Git
 | git branch -f main HEAD~3 | moves branch to HEAD - 3 Commit |
 | git cherry-pick HASH1 HASH2 ... | pick all the commits and apply them to the current branch |
 | git tag v1 COMMIT_HASH | append tag v1 to commit with hash COMMIT_HASH |
-| git describe TAGNAME | shows you how many commit are between you and the tag with name TAGNAME |
+| git describe TAGNAME | shows you how many commit are between you and the tag with name TAGNAME (v2_1_gC4) -> (NEXT-TAG_NUMBEROFCOMMITS_COMMITHASH) |
 
 ## Files
 
