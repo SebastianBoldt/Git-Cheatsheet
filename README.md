@@ -38,11 +38,14 @@ A Cheatsheet for Git
 | git reset A.txt | Removes file from staging area |
 | git reset HEAD | reset the staging area  |
 | git reset --p | git will ask you which files you want to remove from the staging area |
+| git reset HEAD~3 | resets current branch to HEAD - 3 Commit |
+| git revert COMMIT_HASH | reverts to old state by creating a new commit |
 | git branch BRANCHNAME | creates a new branch named BRANCHNAME |
 | git checkout BRANCHNAME | moving to a branch with the name BRANCHNAME |
 | git checkout COMMIT_HASH | detach HEAD and move it to the commit with the hash COMMIT_HASH |
 | git rebase BRANCHNAME | rebasing the current branch to BRANCHNAME |
 | git checkout HEAD^ | moves current commit pointer one commit back in time |
+| git branch -f main HEAD~3 | moves branch to HEAD - 3 Commit |
 
 ## Files
 
