@@ -35,6 +35,7 @@
 | git log | show all commits |
 | git diff | show difference between working tree, index and repo |
 | git diff --staging | show difference between index and repo |
+| git reset A.txt | Removes file from staging area |
 | git reset HEAD | reset the index  |
 | git reset --p | git will ask you which files you want to remove from the index |
 
