@@ -43,6 +43,8 @@ A Cheatsheet for Git
 | git branch BRANCHNAME | creates a new branch named BRANCHNAME |
 | git checkout BRANCHNAME | moving to a branch with the name BRANCHNAME |
 | git checkout COMMIT_HASH | detach HEAD and move it to the commit with the hash COMMIT_HASH |
+| git checkout main^ | checkout the previous commit |
+| git checkout main^2 | if current commit is merge commit it checks out the second one | 
 | git rebase BRANCHNAME | rebasing the current branch to BRANCHNAME |
 | git rebase -i HEAD~4 | start an interactive rebase to change the last 4 commits |
 | git checkout HEAD^ | moves current commit pointer one commit back in time |
