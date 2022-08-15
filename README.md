@@ -1,5 +1,5 @@
 # Git-Cheatsheet
-🐱A Cheatsheet for Git 
+A Cheatsheet for Git 
 
 ## Fundamentals
 | Term | Description |
