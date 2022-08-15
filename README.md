@@ -5,7 +5,7 @@ A Cheatsheet for Git
 | Term | Description |
 | ----------- | ----------- |
 | Working Tree | Directory where modifications are made |
-| HEAD | Symbolic Reference to the most recent commit |
+| HEAD | Symbolic Reference to the most current checked out commit - can be detached so it points to another commit |
 | Index(Staging Area) | This is where commits will be prepared |
 | Repository | Different states of files will be tracked inside the Repository |
 
@@ -40,6 +40,9 @@ A Cheatsheet for Git
 | git reset --p | git will ask you which files you want to remove from the staging area |
 | git branch BRANCHNAME | creates a new branch named BRANCHNAME |
 | git checkout BRANCHNAME | moving to a branch with the name BRANCHNAME |
+| git checkout COMMIT_HASH | detach HEAD and move it to the commit with the hash COMMIT_HASH |
+| git rebase BRANCHNAME | rebasing the current branch to BRANCHNAME |
+| git checkout HEAD^ | moves current commit pointer one commit back in time |
 
 ## Files
 
