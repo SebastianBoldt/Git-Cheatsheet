@@ -59,7 +59,9 @@ A Cheatsheet for Git
 | git pull | fetches all changes and merges them in corresponding local branch |
 | get pull --rebase | fetches all changes and rebases them before on the current branch commits |
 | git push origin main | pushes all changes from main to origin main |
-| git push origin SOURCE DESTINATION | pushes all changes from local SOURCE to remote DESTINATION on origin |
+| git push origin SOURCE:DESTINATION | pushes all changes from local SOURCE to remote DESTINATION on origin |
+| git push origin main^:foo | pushes all changes from local main - 1 commit to remote foo on origin |
+
 ## Files
 
 | Filename | Description |
