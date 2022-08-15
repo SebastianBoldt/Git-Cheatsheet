@@ -53,6 +53,8 @@ A Cheatsheet for Git
 | git cherry-pick HASH1 HASH2 ... | pick all the commits and apply them to the current branch |
 | git tag v1 COMMIT_HASH | append tag v1 to commit with hash COMMIT_HASH |
 | git describe TAGNAME | shows you how many commit are between you and the tag with name TAGNAME (v2_1_gC4) -> (NEXT-TAG_NUMBEROFCOMMITS_COMMITHASH) |
+| git checkout -b not_main origin/main | creates a local branch not_main that tracks the remote branch main |
+| git branch -u origin/main foo | let foo track remote branch origin/main so push and pull operate on it |
 
 ## Files
 
