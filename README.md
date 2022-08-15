@@ -46,6 +46,7 @@ A Cheatsheet for Git
 | git rebase BRANCHNAME | rebasing the current branch to BRANCHNAME |
 | git checkout HEAD^ | moves current commit pointer one commit back in time |
 | git branch -f main HEAD~3 | moves branch to HEAD - 3 Commit |
+| git cherry-pick <Commit1> <Commit2> <...> | pick all the commits and apply them to the current branch |
 
 ## Files
 
