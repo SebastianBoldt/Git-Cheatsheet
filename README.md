@@ -38,6 +38,8 @@ A Cheatsheet for Git
 | git reset A.txt | Removes file from staging area |
 | git reset HEAD | reset the staging area  |
 | git reset --p | git will ask you which files you want to remove from the staging area |
+| git branch BRANCHNAME | creates a new branch named BRANCHNAME |
+| git checkout BRANCHNAME | moving to a branch with the name BRANCHNAME |
 
 ## Files
 
