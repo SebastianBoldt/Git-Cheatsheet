@@ -55,7 +55,10 @@ A Cheatsheet for Git
 | git describe TAGNAME | shows you how many commit are between you and the tag with name TAGNAME (v2_1_gC4) -> (NEXT-TAG_NUMBEROFCOMMITS_COMMITHASH) |
 | git checkout -b not_main origin/main | creates a local branch not_main that tracks the remote branch main |
 | git branch -u origin/main foo | let foo track remote branch origin/main so push and pull operate on it |
-
+| git fetch | moves changes to local remote tracking branch |
+| git pull | fetches all changes and merges them in corresponding local branch |
+| get pull --rebase | fetches all changes and rebases them before on the current branch commits |
+| git push origin main | pushes all changes from main to origin main |
 ## Files
 
 | Filename | Description |
