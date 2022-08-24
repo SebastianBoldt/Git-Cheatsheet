@@ -25,7 +25,7 @@ A Cheatsheet for Git
 | git status | show current repository status |
 | git add file | add file to the staging area|
 | git add . | add all changes made to the staging area |
-| git add --p | git will ask you which files you want to add to the staging area |
+| git add --p | git will ask you which files/parts of these files you want to add to the staging area |
 | git commit -m "First Commit" | Commit changes to current branch |
 | git commit --amend | Repair commit (SHA-1 Hash will change) |
 | git show | show last commit message etc. |
